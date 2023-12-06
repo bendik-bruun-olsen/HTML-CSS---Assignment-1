@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #303030;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  margin: 10px 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 15px 30px;
+  color: white;
+}
+
+.navbar {
+  margin: 30px auto;
+  background-color: black;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.main-container {
+  width: 500px;
+  height: 100%;
+  background-color: black;
+  margin: auto;
+  padding: 15px;
+  border-radius: 15px;
+}
