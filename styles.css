@@ -1,53 +1,113 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body */
 body {
-  background-color: #303030;
+  background-color: #202020;
+  height: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
+/* Text */
 p {
   color: white;
   margin: 10px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1 {
-  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #193962;
   text-align: center;
+  text-shadow: 3px 3px 5px black;
   margin: 20px 0;
   font-size: 60px;
   letter-spacing: 10px;
 }
 
-ul {
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: #375c8d;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+h6 {
+  color: rgb(92, 92, 92);
+  font-size: 12px;
+  font-weight: 200;
+}
+
+hr {
+  height: 1px;
+  margin: 20px 0;
+  background-color: #375c8d;
+  border: none;
+}
+
+/* Navigation */
+#nav-list {
   list-style-type: none;
   text-align: center;
-}
-
-li {
-  display: inline-block;
-  margin: 15px 30px;
-  color: white;
-}
-
-.navbar {
-  margin: 30px auto;
-  background-color: black;
-  width: 500px;
+  border: solid 1px #3f3f3f;
+  box-shadow: 10px 10px 10px rgb(22, 22, 22);
   border-radius: 20px;
 }
 
+.nav-item {
+  display: inline-block;
+  color: #3676ca;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  transition: 0.3s;
+  background-color: #213753;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #192a40;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+/*  */
 .main-container {
-  width: 500px;
-  height: 100%;
-  background-color: black;
+  max-width: 700px;
+  background-color: #192a40;
   margin: auto;
-  padding: 15px;
-  border-radius: 15px;
+  padding: 30px 60px 60px 60px;
+  border: solid 1px #3f3f3f;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px rgb(22, 22, 22);
+}
+
+/* Images */
+.screenshot {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  border: solid 1px #3f3f3f;
+}
+
+.gif {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+/*  */
+footer {
+  text-align: center;
+  margin: 20px 0 10px 0;
 }
